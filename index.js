@@ -41,7 +41,6 @@ const guests = db.load('guests')
 //printBookingHistory(hilmi)
 //printCancellationHistory(hilmi)
 //printChangingHistory(hilmi)
-console.log('hh')
 const semih = new Guest('semih')
 
 db.insert('guests',semih)
