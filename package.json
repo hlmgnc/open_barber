@@ -1,0 +1,21 @@
+{
+  "name": "week1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --ignore '*.json'"
+  },
+  "author": "hilmi genc <hlmgnc@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "flatted": "^3.0.2",
+    "gitignore": "^0.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
