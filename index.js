@@ -35,7 +35,7 @@ function printChangingHistory(guest) {
 const guests = db.load('guests')
 
 guests.forEach(printBookingHistory)
-//guests.forEach(printCancellationHistory)
+guests.forEach(printCancellationHistory)
 //guests.forEach(printChangingHistory)
 
 //printBookingHistory(hilmi)
